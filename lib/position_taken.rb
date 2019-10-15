@@ -9,7 +9,7 @@ end
 # code your #position_taken? method here!
 
 def position_taken? (board, index)
-  if (index == "" or " ")
+  if (index == "" || " ")
     "True"
   else
     "False"
