@@ -3,7 +3,7 @@
 
 
 def position_taken? (board, index)
-  if index == "" or " "
+  if (index == "" or " ")
     "True"
   else
     "False"
